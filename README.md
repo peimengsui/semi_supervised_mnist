@@ -45,7 +45,7 @@ Change to the /code directory and run
 ```bash
 python mnist_model.py 
 ```
-This will train the model using all default parameters, which can generate a similar result we mentioned. The trained model will be saved under the /model directory.
+This will train the model using all default parameters, which can generate a similar result we mentioned. The trained model will be saved under the /model directory. For futher parameter tuning, you can check the argument parser in the code to setup your choices. 
 ### Prediction Generating
 Under the /code directory, you can run 
 ```bash
