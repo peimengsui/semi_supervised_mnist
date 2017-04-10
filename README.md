@@ -35,6 +35,7 @@ To reduce the variance and increase accuracy of our model, we trained 10 differe
 
 ## 2.running our code
 ### Preparation
+Code in this repo should be run under environment Python 2.7.0 or higher.
 Use 
 ```bash
 pip install -r requirements.txt
