@@ -34,4 +34,21 @@ During the final phase, we did exactly the same as in phase 2, except that we fi
 To reduce the variance and increase accuracy of our model, we trained 10 different models with different hyper-parameters on 10 boostrap samples separately, and took the average of their outputs.
 
 ## 2.running our code
-
+### Preparation
+Use 
+```bash
+pip install -r requirements.txt
+```
+to install all the dependencies to run the code in this repo. 
+### Model Training
+Change to the /code directory and run 
+```bash
+python mnist_model.py 
+```
+This will train the model using all default parameters, which can generate a similar result we mentioned. The trained model will be saved under the /model directory. For futher parameter tuning, you can check the argument parser in the code to setup your choices. 
+### Prediction Generating
+Under the /code directory, you can run 
+```bash
+python mnist_result.py
+```
+This will generate prediction output for each of the test point and the result should be saved as submision.csv.
