@@ -218,3 +218,4 @@ optimizer = optim.SGD(model.parameters(), lr=args.stage_three_lr, momentum=args.
 for epoch in range(1, args.stage_three_epochs+1):
     train2(epoch,loader_list)
     test(epoch, valid_loader)
+pickle.dump(model, open("modelbest.p", "wb" ))
