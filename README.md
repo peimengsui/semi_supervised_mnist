@@ -3,8 +3,8 @@ This is the group project for in-class Kaggle competition [MNIST_DIGIT_RECOGNITI
 
 The problem setting for this competition is Semi-Supervise Learning. We have 3,000 labeled samples and 47,000 unlabeled sampples. Using ConvNets, along with data augmentation, pseudo-label method, and ensembling, we get a 99.42% accuracy on 10,000 test samples, ranking the 2nd out of 30 teams.
 
-## 1. General Methos
-### ConvNet Architecture
+## 1. General Methods
+### ConvNets Architecture
 The input to our ConvNets is a fixed-size 28*28 single channel images of hand-written numbers. The image is passed through a stack of two convolutional layers of 5*5 kernels. The convolution stride is fixed to 1 pixel. Spatial pooling is carried out by five max-pooling layers, which follow the conv layers. Max-pooling is performed over a 2*2 pixel window, with stride 1.
 
 ### Data Augmentaion
