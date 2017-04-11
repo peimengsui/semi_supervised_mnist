@@ -41,6 +41,11 @@ Use
 pip install -r requirements.txt
 ```
 to install all the dependencies to run the code in this repo. 
+
+To unzip the data being used, please go to the /data directory and run
+```bash
+unzip data.zip
+```
 ### Model Training
 Change to the /code directory and run 
 ```bash
