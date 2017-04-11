@@ -42,6 +42,8 @@ pip install -r requirements.txt
 ```
 to install all the dependencies to run the code in this repo. 
 
+We have added some new classes to transfrom.py for data augmentation. So in order to run our code, you will want to replace transform.py of torchvision with the one that under the /code directory.
+
 To unzip the data being used, please go to the /data directory and run
 ```bash
 unzip data.zip
